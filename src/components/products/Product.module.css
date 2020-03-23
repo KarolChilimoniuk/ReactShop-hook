@@ -1,8 +1,14 @@
-.Product__container {
+.product__container {
+    background-color: #fff;
     align-items: center;
     display: flex;
     flex-direction: column;
     margin: 60px;
     padding: 20px;
     width: 270px;
+}
+
+.product__image {
+    height: 225px;
+    width: 260px;
 }
