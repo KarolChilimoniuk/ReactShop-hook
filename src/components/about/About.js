@@ -1,11 +1,12 @@
 import React from "react";
 import H1 from "../h1/H1";
+import style from "./About.module.css";
 
 const About = () => {
   return (
-    <div>
+    <div className={style.about__container}>
       <H1 name="About" />
-      <p>
+      <p className={style.about__paragraph}>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse facere
         incidunt doloremque dolores dicta tenetur optio officia. At voluptatibus
         accusantium laborum nesciunt voluptate! Sint dolorem iusto, voluptates
