@@ -1,4 +1,9 @@
+.middleHeader__container {
+    width: 80%
+}
+
 .middleHeader {
+    margin: 0;
     padding: 25px;
 }
 

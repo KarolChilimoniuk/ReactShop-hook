@@ -3,7 +3,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 60px;
+    margin: 40px 0 40px 0;
     padding: 20px;
     width: 270px;
 }
@@ -11,4 +11,10 @@
 .product__image {
     height: 225px;
     width: 260px;
+}
+
+@media(min-width: 1024px) {
+    .product__container {
+        margin: 40px;
+    }
 }
