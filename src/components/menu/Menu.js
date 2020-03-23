@@ -7,13 +7,19 @@ const Menu = () => {
     <nav className={style.navigation}>
       <ul className={style.navigation__list}>
         <li className={style.navigation__element}>
-          <NavLink to="/">Home</NavLink>
+          <NavLink className={style.navigation__link} to="/">
+            Home
+          </NavLink>
         </li>
         <li className={style.navigation__element}>
-          <NavLink to="/catalog">Catalog</NavLink>
+          <NavLink className={style.navigation__link} to="/catalog">
+            Catalog
+          </NavLink>
         </li>
         <li className={style.navigation__element}>
-          <NavLink to="/about">About</NavLink>
+          <NavLink className={style.navigation__link} to="/about">
+            About
+          </NavLink>
         </li>
       </ul>
     </nav>
