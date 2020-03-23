@@ -1,0 +1,14 @@
+.navigation {
+    background-color: #0b102b;
+    list-style: none;
+}
+
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation__element {
+    list-style: none;
+    padding: 40px;
+}
