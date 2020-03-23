@@ -1,0 +1,8 @@
+.Product__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    padding: 20px;
+    width: 270px;
+}
