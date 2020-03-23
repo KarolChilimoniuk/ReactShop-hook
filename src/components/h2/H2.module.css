@@ -1,0 +1,13 @@
+.middleHeader {
+    padding: 25px;
+}
+
+.middleHeader {
+    font-size: 1.3rem;
+}
+
+@media(min-width: 1024px) {
+    .middleHeader {
+        font-size: 1.5rem;
+    }
+}
