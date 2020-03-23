@@ -10,12 +10,19 @@
 
 .navigation__element {
     list-style: none;
-    padding: 35px;
+    padding: 25px;
 }
 
 .navigation__link {
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.7rem;
     letter-spacing: 2px;
     text-decoration: none;
+}
+
+@media(min-width: 1024px) {
+    .navigation__link {
+        font-size: 1rem;
+        padding: 35px;
+    }
 }
