@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Filters from "../filters/Filters";
 import Products from "../products/Products";
 import products from "../../products.json";
+import style from "./Catalog.module.css";
 
 const Catalog = () => {
   const [currentProducts, nextProducts] = useState(
@@ -58,11 +59,11 @@ const Catalog = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div className={style.catalog__container}>
+      <div className={style.filters__container}>
         <Filters onClick={clickChanger} onChange={changer} />
       </div>
-      <div>{currentProducts}</div>
+      <div className={style.products__container}>{currentProducts}</div>
     </div>
   );
 };
